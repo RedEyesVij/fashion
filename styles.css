@@ -11,6 +11,22 @@ body {
     font-family: "Work Sans", sans-serif;
 }
 
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+}
+
+.text-box {
+    width: 698px;
+    height: 322px;
+    display: block;
+    text-align: center;
+}
+
 .button {
     margin-top: 40px;
     width: 121px;
@@ -22,4 +38,9 @@ body {
     border: none;
     min-height: 50px;
     cursor: pointer;
+}
+
+.slogan {
+    width: 177px;
+    height: 174px;
 }
