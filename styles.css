@@ -7,6 +7,7 @@ p {
 body {
     --primary: #252525;
     color: var(--primary);
+    display: flex;
     justify-content: center;
     background-color: #c4bfbf;
     font-family: 'Times New Roman', Times, serif;
@@ -16,6 +17,7 @@ body {
     background-color: #ffffff;
     margin: 24px;
     width: 1440px;
+    position: relative;
 }
 
 .text-box {
