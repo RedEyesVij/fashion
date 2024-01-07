@@ -101,17 +101,12 @@ body {
     margin-top: 24px;
 }
 
-.divider-1 {
+.divider-left {
     width: 163px;
 }
 
-.divider-2 {
+.divider-right {
     width: 98px;
-}
-
-
-.image-8 {
-    margin-top: 24px;
 }
 
 .container-left {
