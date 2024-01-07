@@ -73,8 +73,10 @@ body {
 
 }
 
-.column-conteiner:nth-child(n + 2) {
-    margin-top: 16px;
+.column-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 
@@ -92,10 +94,6 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     margin-left: auto;
-}
-
-.image-2 {
-    margin: 40px;
 }
 
 .divider {
@@ -116,22 +114,15 @@ body {
     margin-top: 24px;
 }
 
-.container-img-left,
-.container-img-mid-l {
+.container-left {
     align-self: start;
 }
 
-.image-3,
-.image-6 {
-    padding-bottom: 16px;
-}
-
-.container-img-centr {
+.container-centr {
     align-self: stretch;
 }
 
-.container-img-mid-r,
-.container-img-right {
+.container-right {
     align-self: end;
 }
 
