@@ -73,6 +73,11 @@ body {
 
 }
 
+.column-conteiner:nth-child(n + 2) {
+    margin-top: 16px;
+}
+
+
 .slogan-1 {
     max-width: 177px;
     font-style: italic;
@@ -90,7 +95,7 @@ body {
 }
 
 .image-2 {
-    padding-top: 40px;
+    margin: 40px;
 }
 
 .divider {
@@ -108,13 +113,10 @@ body {
 
 
 .image-8 {
-    padding-top: 24px;
+    margin-top: 24px;
 }
 
-.container-img-left {
-    align-self: start;
-}
-
+.container-img-left,
 .container-img-mid-l {
     align-self: start;
 }
@@ -128,17 +130,13 @@ body {
     align-self: stretch;
 }
 
-.container-img-mid-r {
-    align-self: end;
-}
-
+.container-img-mid-r,
 .container-img-right {
     align-self: end;
 }
 
 .container-decor {
     position: absolute;
-    /* z-index: -1; */
 }
 
 .decor-left {
